@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 import time
 
 
-res = pd.read_csv('joined_result.csv')
+res = pd.read_csv('data/processed/joined_result.csv')
 
 
 Y = res['freight_value'].copy()

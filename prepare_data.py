@@ -2,9 +2,9 @@ import pandas as pd
 import sqlite3
 
 
-df2 = pd.read_csv('data/olist_orders_dataset.csv')
-df3 = pd.read_csv('data/olist_order_items_dataset.csv')
-df4 = pd.read_csv('data/olist_products_dataset.csv')
+df2 = pd.read_csv('data/raw/olist_orders_dataset.csv')
+df3 = pd.read_csv('data/raw/olist_order_items_dataset.csv')
+df4 = pd.read_csv('data/raw/olist_products_dataset.csv')
 
 conn = sqlite3.connect(':memory:')
 

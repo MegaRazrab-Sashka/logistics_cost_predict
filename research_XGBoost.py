@@ -8,7 +8,7 @@ import time
 
 
 
-res = pd.read_csv('joined_result.csv')
+res = pd.read_csv('data/processed/joined_result.csv')
 Y = res['freight_value'].copy()
 Y.fillna(Y.median(), inplace=True)
 col = ['order_id', 'payment_sequential', 'payment_type',
